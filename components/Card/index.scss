@@ -1,0 +1,5 @@
+@use './../../sass_variables/colors';
+
+.card {
+  color: colors.$primary;
+}

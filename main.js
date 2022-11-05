@@ -1,9 +1,9 @@
 import "./preflight.css";
-import Header from "./components/Header";
+import Card from "./components/Card";
 
 document.querySelector("#app").innerHTML = `
   <div>
-    ${Header()}
+    ${Card()}
   </div>
 `;
 
