@@ -1,0 +1,54 @@
+@use "./../../variables/colors";
+.wrapper {
+  background-color: colors.$primary;
+  color: colors.$grayscale-1;
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+    max-width: 80rem; /* 1280px */
+    margin-left: auto;
+    margin-right: auto;
+
+    .header__title {
+      font-family: "Montserrat", sans-serif;
+      font-size: 1.25rem; /* 20px */
+      line-height: 1.75rem; /* 28px */
+      font-weight: 500;
+      font-style: italic;
+      .title__strong {
+        font-weight: 900;
+        font-style: normal;
+      }
+    }
+    .header__searchbar {
+      padding: 0.5rem;
+      border-radius: 5px;
+      display: flex;
+      background-color: colors.$grayscale-1;
+      gap: 1rem;
+
+      input {
+        outline-width: 0px;
+        color: black;
+      }
+    }
+
+    .header__profile {
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+      .profile__icon {
+        background-color: colors.$grayscale-2;
+        flex-shrink: 0;
+        height: 3rem;
+        width: 3rem;
+        padding: 0.5rem;
+        border-radius: 500px;
+      }
+    }
+  }
+}

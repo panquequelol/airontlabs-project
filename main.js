@@ -1,10 +1,8 @@
 import "./preflight.css";
-import Card from "./components/Card";
+import Header from "./components/Header";
 
 document.querySelector("#app").innerHTML = `
   <div>
-    ${Card()}
+    ${Header()}
   </div>
 `;
-
-setupCounter(document.querySelector("#counter"));
