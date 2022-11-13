@@ -1,0 +1,8 @@
+@use "./../variables/colors";
+
+.button {
+  background-color: colors.$primary;
+  color: colors.$grayscale-1;
+  padding: 1rem 6rem;
+  border-radius: 31px;
+}

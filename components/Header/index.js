@@ -1,7 +1,7 @@
 import "./index.scss";
 
 function Header() {
-  return `<header class="wrapper">
+  return `<header class="wrapper"">
     <div class="header">
     <h1 class="header__title">
     <span class="title__strong">MOVIE</span>finder
